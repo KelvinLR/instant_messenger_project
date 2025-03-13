@@ -63,7 +63,7 @@ class _HomepageState extends State<Homepage> {
                   Stack(
                     children: [
                       Container(
-                        width: deviceWidth * (273 / 402),
+                        width: deviceWidth * (371 / 402),
                         height: deviceHeight * (41 / 874),
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(5),
@@ -81,7 +81,7 @@ class _HomepageState extends State<Homepage> {
                         ),
                       ),
                       Container(
-                        width: deviceWidth * (273 / 402),
+                        width: deviceWidth * (371 / 402),
                         height: deviceHeight * (41 / 874),
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(5),
@@ -98,11 +98,10 @@ class _HomepageState extends State<Homepage> {
                           ),
                         ),
                       ),
-                      // Conteúdo do container
                       ClipRRect(
                         borderRadius: BorderRadius.circular(5),
                         child: Container(
-                          width: deviceWidth * (273 / 402),
+                          width: deviceWidth * (371 / 402),
                           height: deviceHeight * (41 / 874),
                           decoration: BoxDecoration(
                             color: Color(0xFFFFFFFF).withValues(alpha: 0.22),
@@ -124,7 +123,8 @@ class _HomepageState extends State<Homepage> {
                                         fontSize: 12,
                                       ),
                                       contentPadding: EdgeInsets.only(
-                                        bottom: deviceHeight * 12 / 874,
+                                        //top: deviceHeight * (12/874),
+                                        bottom: deviceHeight * (12 / 874),
                                       ),
                                     ),
                                   ),
@@ -146,34 +146,7 @@ class _HomepageState extends State<Homepage> {
                         ),
                       ),
                     ],
-                  ),
-                  Row(
-                    spacing: deviceWidth * (9 / 402),
-                    children: [
-                      SizedBox.square(
-                        dimension: deviceWidth * (24 / 402),
-                        child: Image.asset(
-                          InstantMessengerIllustrations.inviteFriend,
-                        ),
-                      ),
-                      SizedBox.square(
-                        dimension: deviceWidth * (24 / 402),
-                        child: Image.asset(
-                          InstantMessengerIllustrations.settings,
-                        ),
-                      ),
-                      SizedBox.square(
-                        dimension: deviceWidth * (24 / 402),
-                        child: Image.asset(
-                          InstantMessengerIllustrations.exitMsn,
-                        ),
-                      ),
-                    ],
-                  ),
-
-                  /*GestureDetector(),
-                  GestureDetector(),
-                  GestureDetector(),*/
+                  ),     
                 ],
               ),
             ),
