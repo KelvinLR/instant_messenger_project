@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "324880274442",
+    "project_id": "instant-messenger-project",
+    "storage_bucket": "instant-messenger-project.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:324880274442:android:ff755133576bff51e27bf3",
+        "android_client_info": {
+          "package_name": "com.example.instant_messenger_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFSu3l__8Qy8TUg07F3_7z1r_ksPJrV_8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
